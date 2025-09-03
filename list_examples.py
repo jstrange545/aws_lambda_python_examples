@@ -29,3 +29,12 @@ fruits.sort()
 fruits
 
 fruits.pop()
+
+list1 = [1, 2, 3]
+list2 = [4, 5, 6]
+concatenated_list = list1 + list2
+print(concatenated_list)
+
+another_list = [1, 2, 3]
+repeated_list = another_list * 3
+print(repeated_list)
