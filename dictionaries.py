@@ -30,3 +30,14 @@ payload = {
 
 print(payload)
 print(payload["Avariable"]["ProgramConfigOne"])
+
+# looping through keys and values
+
+for key in student_grades.keys():
+    print(key)
+
+for value in student_grades.values():
+    print(value)
+
+for key, value in student_grades.items():
+    print(f"{key}: {value}")
